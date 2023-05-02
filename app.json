@@ -2,9 +2,11 @@
   "expo": {
     "name": "Greenify",
     "slug": "Greenify",
+    "privacy": "public",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo1.jpg",
+    "description":"An app to help fight climate change",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,7 +20,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyCGTgoExmrpz6-pWbs8owcitzKdSUlKpQo"
+        }
     },
     "android": {
       "adaptiveIcon": {
